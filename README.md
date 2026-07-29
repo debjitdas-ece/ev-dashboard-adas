@@ -72,6 +72,12 @@ F:40 L:400 R:400 TTC:2.1s COL:1 BSD:10 ALM:2 FLT:04
 
 `FLT` is the fault byte in hex, `ALM` is alarm priority (0=none, 1=advisory, 2=warning, 3=critical), `COL` is collision level (0–2).
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/Iqil_cJ2uQM?si=HWq51_IRcHblPLF6/maxresdefault.jpg)](https://youtu.be/Iqil_cJ2uQM?si=HWq51_IRcHblPLF6)
+
+Presentation deck: [`docs/EV_ADAS_Dashboard_v3.pptx`](docs/EV_ADAS_Dashboard_v3.pptx)
+
 ## Notes
 
 Built and tested entirely in simulation (PICSimLab) — no physical hardware was used. The `docs/` folder has the full requirements and design document if you want the reasoning behind the thresholds, the alarm hysteresis logic, or the SOC/thermal model equations.
