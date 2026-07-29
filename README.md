@@ -23,8 +23,11 @@ This was built during my Emertxe Embedded Systems Internship. The firmware runs 
 | PA3 | ADC1 CH3 | Motor temperature (potentiometer) |
 | PA8 | TIM1 CH1 | Motor PWM, 20 kHz |
 | PA9 / PA10 | USART1 TX/RX | Telemetry stream + command shell, 115200 bps |
-| PB0/PB1, PB2/PB3, PB4/PB5 | GPIO TRIG/ECHO | HC-SR04 front, left, right |
+| PC13 / PB1 | GPIO TRIG/ECHO | HC-SR04 Front |
+| PB2 / PB3 | GPIO TRIG/ECHO | HC-SR04 Left |
+| PB4 / PB5 | GPIO TRIG/ECHO | HC-SR04 Right |
 | PB8–PB11 | GPIO | Collision, left BSD, right BSD, fault LEDs |
+| PB0 | TIM3 CH1 | Buzzer tone (PWM) |
 
 ## Vehicle state machine
 
