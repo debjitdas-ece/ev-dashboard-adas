@@ -1,55 +1,30 @@
-# Prerequisites
-*.d
+# ── STM32CubeIDE build output ──────────────────────────────
+firmware/ev_dash/Debug/
+firmware/ev_dash/Release/
+**/Debug/
+**/Release/
+.metadata/
 
-# Object files
+# Stray object/build artifacts, in case any land outside Debug/
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+*.d
 *.su
-*.idb
-*.pdb
+*.cyclo
+*.list
+*.map
+*.elf
+*.bin
+*.hex
+*.launch
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# ── Python (dashboard.py) ──────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
 
-# debug information files
-*.dwo
+# ── OS / editor junk ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
